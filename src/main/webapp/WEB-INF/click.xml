@@ -1,0 +1,13 @@
+
+<click-app charset="UTF-8">
+
+	<pages package="example.page" autobinding="annotation" />
+	<mode>development</mode>
+
+	<page-mappings>
+		<page path="LoginPage.htm" classname="example.page.LoginPage" />
+		<page path="hello-world.htm" classname="example.page.HelloWorld" />
+		<page path="simple-form.htm" classname="example.page.SimpleForm" />
+	</page-mappings>
+
+</click-app>
